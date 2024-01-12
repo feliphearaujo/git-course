@@ -9,11 +9,28 @@ Saiba mais em [willianjusten.com.br](https://willianjusten.com.br)
 
 git config --global user.name "nome de usuario"
 git config --global user.email "email do usuario"
+ 
+** configurando usuário e email **
+
 
 git config --global --unset user.name 
 git config --global --unset user.email
 
-removendo usuario e email
+** removendo usuário e email **
+
+O git guarda suas infomrações de três coisas
+
+sistema
+usuario -> global
+projeto
+
+# Vendo as configurações
+
+``git config user.name`` mostra o usuario
+``git config user.name`` mostra o email
+``git config core.editor`` mostra editor padrão
+``git config --list`` mostra todas as informações
+
 
 mkdir -> criando pastas
 
