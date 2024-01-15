@@ -108,10 +108,27 @@ comando ``git show hash-numero`` consigo ver o que foi a adicionado nela
 
 # Desfazendo as coisas com reset (desfazendo commit) 
 
-teste
 
 Existem três tipos de reset 
---soft hash -> Pega e desfaz o commit mas o arquivo fica staged prontinho para ser commitad 
---mixed hash -> Mata os arquivos mas volta pro modified
---hard hash -> mata tudo, ignora que o arquivo já existiu
+--soft hash -> Pega e desfaz o commit mas o arquivo fica staged prontinho para ser commitado 
+comando -> ``git reset --soft hash``
 
+--mixed hash -> Mata os arquivos mas volta pro modified
+comando -> ``git reset --mixed hash``
+
+--hard hash -> mata tudo, ignora que o arquivo já existiu
+comando -> ``git reset --hard hash``
+
+# Ligando repositório local a um repositório criado no github
+
+```
+git remote add origin git@github.com:feliphearaujo/git-course.git
+git branch -M main
+git push -u origin main
+```
+# Checando informações do repositorio remoto
+Checando qual o repositório remoto
+``git remote``
+
+Checando informações 
+``git remote -v``
