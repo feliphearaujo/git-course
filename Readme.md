@@ -99,8 +99,14 @@ comando ``git show hash-numero`` consigo ver o que foi a adicionado nela
 # Commitando um arquivo que já existiu sem utilizar o add
 
 ``git commit -am "mensagem"``
+ 
+# Desfazendo as coisas com restore (antes de dar o commit, mais especificamente do estado modified para unmodified, antes de adicionar)
+``git restore <file>``
 
-# Desfazendo as coisas com reset
+# Utilizando o restore --staged (quando você adicionou mas não quer commitar e quer restaurar)
+``git restore --staged <file>``
+
+# Desfazendo as coisas com reset (desfazendo commit) 
 
 teste
 
