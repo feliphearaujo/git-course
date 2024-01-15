@@ -100,4 +100,12 @@ comando ``git show hash-numero`` consigo ver o que foi a adicionado nela
 
 ``git commit -am "mensagem"``
 
+# Desfazendo as coisas com reset
+
 teste
+
+Existem três tipos de reset 
+--soft hash -> Pega e desfaz o commit mas o arquivo fica staged prontinho para ser commitad 
+--mixed hash -> Mata os arquivos mas volta pro modified
+--hard hash -> mata tudo, ignora que o arquivo já existiu
+
