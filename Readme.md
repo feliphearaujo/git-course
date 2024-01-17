@@ -132,3 +132,5 @@ Checando qual o repositório remoto
 
 Checando informações 
 ``git remote -v``
+
+slkslk
