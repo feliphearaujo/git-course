@@ -133,4 +133,25 @@ Checando qual o repositório remoto
 Checando informações 
 ``git remote -v``
 
-slkslk
+** Criando uma branch **
+
+`` git checkout -b <Nome do branch>``
+
+** Alterando entre branches **
+``git checkout <nome da branch>``
+
+** Vendo os branches**
+``git branch``
+
+**Apagando um branch**
+``git branch -D <nome do branch>``
+
+# Fazendo merge e rebase
+
+**Rebase** -> recorta e cola o commit no final da fila
+``git rebase <nome da branch>``
+
+
+**merge** ->  cria um commit juntando as duas branches, mantém o histórico, ideal para situações de pull request
+``git merge <nome da branch>``
+
